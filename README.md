@@ -12,17 +12,17 @@ In the example below, we encipher the message 'Hello world!. The first letter we
 Hello world!
 Svool dliow!
 
-In this we use 
-pip install pytest 
+In this we use lib.
+     pip install pytest 
 
 pytest lib, to do the unit testing.
 
 
 Here we apply the condition  to get ascii values of char by finding the difference between them.
 for example:-
-chr(219-ord(char)) 
+     chr(219-ord(char)) 
 
-chr is used to get unicode value from ascii code
+chr is used to get unicode value from ascii code.
 
 155 is ascii  code=  ø ( Lowercase slashed zero or empty set )
 219 is ascii code = ( Block, graphic character )( HTML entity = &block; )
